@@ -14,6 +14,8 @@ const VideoPlayer = () => {
     <div className="container-position">
     <div className="video-container">
     <ReactPlayer
+          width="1000px"
+          height="500px"
           playing={isPlayingg}
           className='video-player-video'
           controls={false} // Deshabilita todos los controles predeterminados
